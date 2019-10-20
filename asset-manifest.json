@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.dfb0c7ef.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.63e3e6cd.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.63e3e6cd.chunk.js.map",
+    "runtime~main.js": "/my-portfolio/static/js/runtime~main.674e5ed7.js",
+    "runtime~main.js.map": "/my-portfolio/static/js/runtime~main.674e5ed7.js.map",
+    "static/js/2.15320322.chunk.js": "/my-portfolio/static/js/2.15320322.chunk.js",
+    "static/js/2.15320322.chunk.js.map": "/my-portfolio/static/js/2.15320322.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "precache-manifest.fb702b72e96a1303dc37335da7a96652.js": "/my-portfolio/precache-manifest.fb702b72e96a1303dc37335da7a96652.js",
+    "service-worker.js": "/my-portfolio/service-worker.js",
+    "static/css/main.dfb0c7ef.chunk.css.map": "/my-portfolio/static/css/main.dfb0c7ef.chunk.css.map",
+    "static/media/RaunakAgrawal.jpeg": "/my-portfolio/static/media/RaunakAgrawal.98e5372c.jpeg",
+    "static/media/paper-kit.scss": "/my-portfolio/static/media/nucleo-icons.f32ed5ad.eot",
+    "static/media/raunakresume.pdf": "/my-portfolio/static/media/raunakresume.d286adcf.pdf"
+  }
+}
