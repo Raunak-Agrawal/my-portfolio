@@ -1,0 +1,36 @@
+.companyName {
+  cursor: pointer;
+  &:hover {
+    color: #161616;
+  }
+}
+
+.horizontaltag {
+  &:last-child {
+    display: none;
+  }
+}
+
+.name-title {
+  font-family: "Sacramento", cursive;
+  font-size: 60px;
+  margin-bottom: 15px;
+  animation: type 4s steps(22) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  //   text-align: center
+  @media (max-width: 768px) {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+}
+@keyframes type {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
