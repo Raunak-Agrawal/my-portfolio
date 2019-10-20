@@ -58,7 +58,7 @@ function ProfilePage() {
             </div>
             <div className="name">
               <h4 className="name-title" style={{ height: "80px" }}>
-                Raunak Agrawal
+                Hi, I' am Raunak Agrawal
                 <br />
               </h4>
               <h6 className="description">JavaScript Engineer</h6>
