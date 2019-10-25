@@ -22,8 +22,18 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 import Pdf from "assets/pdf/raunakresume.pdf";
 import "./ProfilePage.scss";
 import { projects } from "./projectdata";
+import ReactGA from "react-ga";
 
+function initializeAnalytics() {
+  ReactGA.initialize("UA-150904862-1", {
+    gaOptions: {
+      siteSpeedSampleRate: 100
+    }
+  });
+  ReactGA.pageview("/");
+}
 function ProfilePage() {
+  initializeAnalytics();
   const [activeTab, setActiveTab] = React.useState("1");
 
   const toggle = tab => {
@@ -57,7 +67,7 @@ function ProfilePage() {
               />
             </div>
             <div className="name">
-              <h4 className="name-title" style={{ height: "80px" }}>
+              <h4 className="name-title">
                 Hi, I' am Raunak Agrawal
                 <br />
               </h4>
