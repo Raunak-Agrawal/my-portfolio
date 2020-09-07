@@ -146,7 +146,7 @@ function ProfilePage() {
                       <Row>
                         <Col className="ml-auto mr-auto" lg="8" md="8" xs="8">
                           <h6>
-                            Full stack developer <br />
+                            Senior Software Engineer - 1  <br />
                             <small
                               className="companyName"
                               onClick={() =>
