@@ -142,6 +142,38 @@ function ProfilePage() {
               <Row>
                 <Col className="ml-auto mr-auto" md="6">
                   <ul className="list-unstyled follows">
+                     <li>
+                      <Row>
+                        <Col className="ml-auto mr-auto" lg="8" md="8" xs="8">
+                          <h6>
+                            Full stack developer <br />
+                            <small
+                              className="companyName"
+                              onClick={() =>
+                                window.open(
+                                  "https://hashedin.com/",
+                                  "_blank"
+                                )
+                              }
+                            >
+                              HashedIn
+                            </small>
+                          </h6>
+                        </Col>
+                        <Col
+                          className="ml-auto mr-auto"
+                          lg="4"
+                          md="4"
+                          xs="4"
+                          style={{ display: "flex", alignItems: "center" }}
+                        >
+                          <Label>
+                            <span>DEC 2019 - PRESENT</span>
+                          </Label>
+                        </Col>
+                      </Row>
+                    </li>
+                    <hr />
                     <li>
                       <Row>
                         <Col className="ml-auto mr-auto" lg="8" md="8" xs="8">
@@ -168,7 +200,7 @@ function ProfilePage() {
                           style={{ display: "flex", alignItems: "center" }}
                         >
                           <Label>
-                            <span>JAN 2019 - PRESENT</span>
+                            <span>JAN 2019 - DEC 2019</span>
                           </Label>
                         </Col>
                       </Row>
