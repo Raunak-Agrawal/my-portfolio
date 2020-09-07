@@ -2,12 +2,14 @@ export const projects = [
   {
     name: "Amazon Insurance product",
     description:
-      "Working on amazonpay insurance team to build auto insurance experience using React, AWS. Major work includes designing and developing front end experience and building High-level and Low-level designs for product." 
+      "Working on amazonpay insurance team to build auto insurance experience using React, AWS. Major work includes designing and developing front end experience and building High-level and Low-level designs for product.",
+    techStack: "React JS, Redux, AWS, Node.js, GraphQL"
   },
    {
     name: "Onboarding app",
     description:
-      "Worked solely on a building an onboarding app for sales team for a client using React Native and AWS. Delivered the project before the deadline. "
+      "Worked solely on a building an onboarding app for sales team for a client using React Native and AWS. Delivered the project before the deadline. ",
+     techStack: "React Native, AWS"
   },
   {
     name: "Operations Management System",
