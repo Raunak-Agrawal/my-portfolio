@@ -12,7 +12,7 @@ import {
   TabPane,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -27,8 +27,8 @@ import ReactGA from "react-ga";
 function initializeAnalytics() {
   ReactGA.initialize("UA-150904862-1", {
     gaOptions: {
-      siteSpeedSampleRate: 100
-    }
+      siteSpeedSampleRate: 100,
+    },
   });
   ReactGA.pageview("/");
 }
@@ -36,7 +36,7 @@ function ProfilePage() {
   initializeAnalytics();
   const [activeTab, setActiveTab] = React.useState("1");
 
-  const toggle = tab => {
+  const toggle = (tab) => {
     if (activeTab !== tab) {
       setActiveTab(tab);
     }
@@ -83,10 +83,10 @@ function ProfilePage() {
               <br />
               {/* <hr /> */}
               <p>
-                <strong>Tech Stack : </strong>
+                <strong>Tech stack : </strong>
                 <small>
-                  React JS, React Native, Redux, Firebase, Node JS, Mongo DB,
-                  GIT
+                  React JS, React Native, Redux, GraphQL, TypeScript Node JS,
+                  Python, Mongo DB, AWS, Docker, Kubernetes,
                 </small>
               </p>
               {/* <div
@@ -142,21 +142,18 @@ function ProfilePage() {
               <Row>
                 <Col className="ml-auto mr-auto" md="6">
                   <ul className="list-unstyled follows">
-                     <li>
+                    <li>
                       <Row>
                         <Col className="ml-auto mr-auto" lg="8" md="8" xs="8">
                           <h6>
-                            Senior Software Engineer - 1  <br />
+                            Senior Software Engineer - 1 <br />
                             <small
                               className="companyName"
                               onClick={() =>
-                                window.open(
-                                  "https://hashedin.com/",
-                                  "_blank"
-                                )
+                                window.open("https://hashedin.com/", "_blank")
                               }
                             >
-                              HashedIn
+                              HashedIn (Deloitte)
                             </small>
                           </h6>
                         </Col>
@@ -294,7 +291,7 @@ function ProfilePage() {
                                   <br />
                                   <small
                                     style={{
-                                      textTransform: "capitalize"
+                                      textTransform: "capitalize",
                                     }}
                                   >
                                     {project.description}
@@ -310,7 +307,7 @@ function ProfilePage() {
                                           window.open(project.link)
                                         }
                                         style={{
-                                          cursor: "pointer"
+                                          cursor: "pointer",
                                         }}
                                       >
                                         {" " + project.link}
