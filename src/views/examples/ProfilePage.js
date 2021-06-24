@@ -85,7 +85,7 @@ function ProfilePage() {
               <p>
                 <strong>Tech stack : </strong>
                 <small>
-                  React JS, React Native, Redux, GraphQL, TypeScript Node JS,
+                  React JS, React Native, Redux, GraphQL, TypeScript, Node JS,
                   Python, Mongo DB, AWS, Docker, Kubernetes,
                 </small>
               </p>
